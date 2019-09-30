@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A19D3DE2316CB58009CCD00 /* CheckinStaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A19D3DC2316CB58009CCD00 /* CheckinStaffViewController.swift */; };
+		8A19D3DF2316CB58009CCD00 /* CheckinStaffViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A19D3DD2316CB58009CCD00 /* CheckinStaffViewController.xib */; };
 		8AF0F1F023101DEC00998EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0F1EF23101DEC00998EAB /* AppDelegate.swift */; };
 		8AF0F1F723101DEE00998EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0F1F623101DEE00998EAB /* Assets.xcassets */; };
 		8AF0F1FA23101DEE00998EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0F1F823101DEE00998EAB /* LaunchScreen.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A19D3DC2316CB58009CCD00 /* CheckinStaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinStaffViewController.swift; sourceTree = "<group>"; };
+		8A19D3DD2316CB58009CCD00 /* CheckinStaffViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckinStaffViewController.xib; sourceTree = "<group>"; };
 		8AF0F1EC23101DEC00998EAB /* ProjectByThanh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectByThanh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF0F1EF23101DEC00998EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF0F1F623101DEE00998EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A19D3DB2316CB01009CCD00 /* CheckinStaff */ = {
+			isa = PBXGroup;
+			children = (
+				8A19D3DC2316CB58009CCD00 /* CheckinStaffViewController.swift */,
+				8A19D3DD2316CB58009CCD00 /* CheckinStaffViewController.xib */,
+			);
+			path = CheckinStaff;
+			sourceTree = "<group>";
+		};
 		8AF0F1E323101DEC00998EAB = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +75,7 @@
 				8AF0F1F823101DEE00998EAB /* LaunchScreen.storyboard */,
 				8AF0F1FB23101DEE00998EAB /* Info.plist */,
 				8AF0F2052310219300998EAB /* Login */,
+				8A19D3DB2316CB01009CCD00 /* CheckinStaff */,
 				8AF0F201231020A100998EAB /* Assests */,
 				8AF0F2022310211100998EAB /* Common */,
 			);
@@ -155,6 +169,7 @@
 				8AF0F1FA23101DEE00998EAB /* LaunchScreen.storyboard in Resources */,
 				8AF0F1F723101DEE00998EAB /* Assets.xcassets in Resources */,
 				8AF0F209231021B100998EAB /* LoginViewController.xib in Resources */,
+				8A19D3DF2316CB58009CCD00 /* CheckinStaffViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AF0F208231021B100998EAB /* LoginViewController.swift in Sources */,
+				8A19D3DE2316CB58009CCD00 /* CheckinStaffViewController.swift in Sources */,
 				8AF0F1F023101DEC00998EAB /* AppDelegate.swift in Sources */,
 				8AF0F20B2310238C00998EAB /* GradientView.swift in Sources */,
 				8AF0F2042310216200998EAB /* Constants.swift in Sources */,
